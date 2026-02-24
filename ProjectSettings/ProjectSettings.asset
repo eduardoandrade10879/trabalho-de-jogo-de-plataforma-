@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: ce653f3c0cdd51742b02b291bf2cf75c
+  productGUID: 218d81b604c289a4d95f49a9e9a44a29
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: meu primeiro game
+  productName: meu projeto parte 2, tentando arrumar
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -846,14 +846,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: meu primeiro game
+  metroPackageName: meu projeto parte 2, tentando arrumar
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: meu primeiro game
+  metroApplicationDescription: meu projeto parte 2, tentando arrumar
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -924,10 +924,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: ac674847-e130-429d-8694-06a03cab1c16
+  cloudProjectId: 240f8d82-8053-438d-a6a1-3400d6a739ef
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: meu primeiro game
+  projectName: meu projeto parte 2, tentando arrumar
   organizationId: eduardoandradesenai
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
