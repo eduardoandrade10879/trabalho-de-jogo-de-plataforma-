@@ -25,5 +25,12 @@ public class Movimetacao : MonoBehaviour
         { 
             transform.Translate(0,0.05f,0);
         }  
+
+          if (Input.GetKey("s"))
+        { 
+            transform.Translate(0.05f,0,0);
+        } 
+
+        physics.CheckSphere(transform.position, 1f);
     }
 }

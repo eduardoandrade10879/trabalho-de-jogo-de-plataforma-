@@ -1766,6 +1766,7 @@ GameObject:
   - component: {fileID: 454337046}
   - component: {fileID: 454337045}
   - component: {fileID: 454337049}
+  - component: {fileID: 454337050}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -1879,6 +1880,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0432423596088c438116b2a20412cb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+--- !u!54 &454337050
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454337044}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &576441957
 GameObject:
   m_ObjectHideFlags: 0
@@ -5444,11 +5472,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.0883682}
+  m_Center: {x: -0.000055946966, y: 0, z: -0.044195306}
 --- !u!23 &1903281964
 MeshRenderer:
   m_ObjectHideFlags: 0
