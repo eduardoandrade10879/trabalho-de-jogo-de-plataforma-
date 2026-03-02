@@ -13,12 +13,17 @@ public class Movimetacao : MonoBehaviour
     {
         if (Input.GetKey("d"))
         { 
-            transform.Translate(0,0,0.05f);
+            transform.Translate(0,0,0.02f);
         }  
 
         if (Input.GetKey("a"))
         { 
-            transform.Translate(0,0,-0.05f);
+            transform.Translate(0,0,-0.02f);
         }    
+
+         if (Input.GetKey("w"))
+        { 
+            transform.Translate(0,0.05f,0);
+        }  
     }
 }
