@@ -23,7 +23,7 @@ public class Movimetacao : MonoBehaviour
 
          if (Input.GetKey("w"))
         { 
-            transform.Translate(0,-0.05f,0);
+            transform.Translate(0,-0.07f,0);
         }  
 
           if (Input.GetKey("s"))
